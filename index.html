@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <section class="calculator">
+      <div class="output-result">0</div>
+      <div class="numbers-panel">
+        <div class="number" id="one" title="one" data-number="1">1</div>
+        <div class="number" id="two" title="two" data-number="2">2</div>
+        <div class="number" id="three" title="three" data-number="3">3</div>
+        <div class="number" id="four" title="four" data-number="4">4</div>
+        <div class="number" id="five" title="five" data-number="5">5</div>
+        <div class="number" id="six" title="six" data-number="6">6</div>
+        <div class="number" id="seven" title="seven" data-number="7">7</div>
+        <div class="number" id="eight" title="eight" data-number="8">8</div>
+        <div class="number" id="nine" title="nine" data-number="9">9</div>
+        <!-- prettier-ignore -->
+        <div class="number number-big" id="zero" title="zero" data-number="0">0</div>
+        <div class="number" id="dot" title="dot" data-dot=".">.</div>
+        <div
+          class="number control"
+          id="delete"
+          title="delete"
+          data-delete="delete"
+        >
+          c
+        </div>
+        <div class="number control" id="plus" title="plus" data-operator="+">
+          ＋
+        </div>
+        <div class="number control" id="minus" title="minus" data-operator="-">
+          −
+        </div>
+        <div
+          class="number control"
+          id="multiply"
+          title="multiply"
+          data-operator="*"
+        >
+          ×
+        </div>
+        <div
+          class="number control"
+          id="divide"
+          title="divide"
+          data-operator="/"
+        >
+          ÷
+        </div>
+        <div
+          class="number control control-big"
+          id="equals"
+          title="equals"
+          data-operator="="
+        >
+          =
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
